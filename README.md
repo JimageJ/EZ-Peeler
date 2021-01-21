@@ -1,8 +1,8 @@
-# EZ-Peeler
+# Epidermal Z-stack Peeler: EZ-Peeler
 
 First published use: Zoulias N, Brown J, Rowe J, Casson SA (2020) HY5 is not integral to light mediated stomatal development in Arabidopsis. PLOS ONE 15(1): e0222480. https://doi.org/10.1371/journal.pone.0222480
 
-Intially started whilst working in Stuart Casson's lab (Sheffield University), I have continued to work on this as a learning exercised in Alexander Jones' lab (SLCU Cambrige). EZ-Peeler is a top down surface segmentation tool that can be used to extract a non flat surface from a confocal stack. Data is exported as a segmented surface, a surface projection, an areamap and a heightmap. The extraction of a surface layer allows users to apply their chosen 2D image segmentation tools and an areamap is produced to account for area differences from the flattening the image.
+Intially started whilst working in Stuart Casson's lab (Sheffield University), I have continued to work on this as a learning exercised in Alexander Jones' lab (SLCU Cambrige). EZ-Peeler is a top down surface segmentation tool that can be used to extract a non flat surface from a confocal stack. Data is exported as a segmented surface, a surface projection, an areamap and a heightmap. The extraction of a surface layer allows users to apply their chosen 2D image segmentation tools and an areamap is produced to account for area differences from the flattening the image. Whilst the code isn't very clean (writing EZ-Peeler has been a learning exercise in image analysis) it is functional and useful.
 
 
 
