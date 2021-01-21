@@ -426,7 +426,7 @@ def getOptions2(imp, maxPixel,height, stack,andOp, width,defaultThreshold):
 	interpolRes = gd.getNextNumber()
 	topSlice = gd.getNextNumber()
 
-	if useOtsu==0:
+	if useOtsu==1:
 		minThreshold=defaultThreshold
 	if gd.wasCanceled():
 		canceled = 1
@@ -788,10 +788,7 @@ def secondStage(minThreshold, interpolation, canceled2,  interpolRes, topSlice, 
 			yvertices.pop(-1)
 		
 		epidermisHeightsFull+=yvertices
-	print epidermisHeightsFull
-	
-	print "points"
-	print points
+
 	
 	
 	#make heightmap
