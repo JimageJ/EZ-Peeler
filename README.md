@@ -78,10 +78,8 @@ As well as having an undulating surface, the epidermis is not of uniform thickne
 
 
 **Requirements and installation**
-The FIJI (https://fiji.sc/) distribution of ImageJ is required to run EZ-Peeler. Installation can be achieved by using the ImageJ update site. EZ Peeler is dependent on Clij, which is also installed via an ImageJ update site.
+The FIJI (https://fiji.sc/) distribution of ImageJ is required to run EZ-Peeler. Installation can be achieved by placing the .py file in your Plugins folder. EZ Peeler is dependent on Clij, which is installed via an ImageJ update site.
 The plugin has been extensively tested on Windows 7, 10 and Ubuntu 19.10, Fiji has been developed to be cross platform and EZ Peeler only uses plugins included in Fiji as default apart from CLIJ. Images must be converted from RGB before processing.
-               Code and data availability
-Source code for the current version (1.36) of EZ-Peeler and a test image is included.  Up to date code is available at https://github.com/JimageJ/EZ-Peeler.
 
 **Acknowledgements**
 This work was funded by the Biotechnology and Biological Sciences Research Council (BBSRC) grants to SC (BB/N002393/1) and AMJ. Thanks to Albert Cardona and Robert Haase for their excellent ImageJ tutorials, resources and code examples.
