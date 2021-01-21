@@ -13,8 +13,6 @@
 													james.rowe@slcu.cam.ac.uk
 										
 														For references:
-Rowe, J., Zoulias, N., Jones AM, and Casson, SA. (?) "Epidermal Z-stack Peeler (EZ Peeler): a top down surface segmentation tool"
-					Zoulias, N., Rowe, J.....Casson, SA. (?) "Chloroplast signals regulate stomatal development"
 	Zoulias N, Brown J, Rowe J, Casson SA (2020) 'HY5 is not integral to light mediated stomatal development in Arabidopsis.'
 	
 					
