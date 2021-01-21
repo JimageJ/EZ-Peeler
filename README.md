@@ -55,8 +55,9 @@ To account for curvature an ‘areamap’ is generated. Dividing the heightmap i
 **Time series data**
 If the image provided is a time series, the user then has the option to apply the same segmentation settings to the whole time series to create a segmented time series (Figure 4). The user has the option to use an otsu threshold determined for each frame, to overcome the effects of bleaching and sample movement.
 
-![Figure 4.	EZ Peeler timeseries workflow](https://github.com/JimageJ/EZ-Peeler/blob/master/EZPF6.png)*
-Figure 4.	EZ Peeler timeseries workflow
+![Figure 4.	EZ Peeler timeseries workflow](https://github.com/JimageJ/EZ-Peeler/blob/master/EZPF6.png)
+
+*Figure 4.	EZ Peeler timeseries workflow
 Steps A) Pre-processing, B) Segmentation / error correction and C) Apply segmentation to original image frame are applied to a single timeframe with user input, as in Figure 2, generating images that can be checked by the user. If the user is happy with the segmentation, these segmentation setting are then used to segment every other timeframe in the image in a loop of steps D) Pre-processing, E) Segmentation / error correction and F) Apply segmentation to original time frame. The segmented time series is rendered as a surface projection timeseries and a series of heightmaps.*
 
 **Results**
