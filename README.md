@@ -40,7 +40,7 @@ The results of the segmentation are presented as multipoint ROIs on the XZ slice
 
 Two forms of error can be corrected in a semiautomated way. Particulate matter floating above the epidermis may create floating spots in the surface, or if the top surface of the epidermis is not found and so the next threshold value is a deeper aberrant object, resulting in holes (Figure 3A, B, C). In both cases, the aberrant surface height will differ significantly from the surrounding surface heights. Generating a heightmap (Figure 3C, D) and applying a large sigma Gaussian blur, we get a smooth approximation of the surface. By subtracting the observed heightmap from the smoothed heightmap, a surface ‘divergence map’ is generated, where large positive or negative pixel values represent sudden changes in surface height, or hotspots (Figure 3E, F). A divergence threshold is set by the user to select these hotspots and successive gaussian blurs  (without blurring non selected pixels) are used to approximate the missing data (Figure 3 G, H and I). These hotspots normally represent errors in segmentation, but the same methods can be used to remove protruding leaf features such as large trichomes with moderate success.
 
-![Figure 3: Error checking](https://github.com/JimageJ/EZ-Peeler/blob/master/EZPF3.png)
+![Figure 3: Error checking](https://github.com/JimageJ/EZ-Peeler/blob/master/EZPF3b.png)
 *Figure 3	Segmentation choice and error correction
 A) XZ slice illustrating a segmentation error, as the epidermal surface is not recognised B and C) Segmentation errors on heightmaps, D and E) Errors on divergence maps, F and G) Heightmaps affter error removal I) Corrected segmentation J and K) Woodgrain effect removal by Gaussian filtering of binary mask.*
     
