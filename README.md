@@ -42,7 +42,7 @@ Two forms of error can be corrected in a semiautomated way. Particulate matter f
 
 ![Figure 3: Error checking](https://github.com/JimageJ/EZ-Peeler/blob/master/EZPF3.png)
 *Figure 3	Segmentation choice and error correction
-A) XZ slice illustrating a segmentation error, as the epidermal surface is not recognised B) Segmentation errors on heightmaps, C) Woodgrain effect removal by Gaussian filtering of binary mask.*
+A) XZ slice illustrating a segmentation error, as the epidermal surface is not recognised B and C) Segmentation errors on heightmaps, D and E) Errors on divergence maps, F and G) Heightmaps affter error removal I) Corrected segmentation J and K) Woodgrain effect removal by Gaussian filtering of binary mask.*
     
 **Applying segmentation choices to final image**
 The user can then define how thick a Z peel they would like (in voxels) and large an offset from the epidermal surface the peel should be (Figure 3J). Two methods are available for selecting the peel, linear Z offset and 3D erosion (Figure 3K, L). Linear Z offset is computationally much faster and provides good segmentation of surfaces such as leaf epidermis which are approximately flat XY planes. This is a similar approach to that of SurfCut (Erguvan et al., 2019). It also outputs a constant Z thickness, meaning that the surface projection is less variable in background intensity. This is especially useful when projecting/segmenting flat surfaces. 3D erosion based surface selection is broadly equivalent to that of MorphographX (de Reuille et al., 2015) and will give more accurate results for contoured surfaces.
